@@ -13,7 +13,7 @@ body {width:960px;margin:0 auto;}
 #prefix-pl .bd li img {display:block;width:75px;height:75px;}
 #prefix-pl .loading ul {background:#fff url(http://www.wingshootingusa.org/2012/Images/loading_transparent.gif) no-repeat center center;min-height:300px;}
 /*phtoviewer */
-#prefix-pv .bd {background:#070B0C url(http://www.wingshootingusa.org/2012/Images/loading_transparent.gif) no-repeat center center;min-height:200px;text-align:center;border-radius:5px;padding:20px;}
+#prefix-pv .bd {background:#070B0C url(http://www.wingshootingusa.org/2012/Images/loading_transparent.gif) no-repeat center center;min-height:200px;text-align:center;border-radius:5px;padding:20px;cursor:pointer;}
 /* photosearch */
 #prefix-ps .bd {background-color:#dfdfdf;padding:5px;border-radius:0 0 5px 5px;}
 #prefix-ps .bd form {background-color:#fff;border-radius:5px;padding:10px;}
