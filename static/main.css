@@ -1,0 +1,30 @@
+body {width:960px;margin:0 auto;}
+.main {margin-right:15px;}
+.mod {margin-bottom:15px;}
+.main-title h3 {font-size:123.1%;font-weight:bold;background-color:#00adfa;border-radius:5px;color:#fff;padding:7px 10px;margin-bottom:10px;}
+.side-title h3 {font-size:123.1%;font-weight:bold;background-color:#ff5127;border-radius:5px 5px 0 0;color:#fff;padding:7px 10px;}
+/* header */
+#prefix-hd h1 {font-size:174%;font-weight:bold;padding:15px 0;}
+/* photolist*/
+#prefix-pl .bd {background-color:#dfdfdf;padding:5px;border-radius:0 0 5px 5px;}
+#prefix-pl .bd ul {background-color:#fff;border-radius:5px;padding:10px 24px;}
+#prefix-pl .bd li {border:3px solid #e5e5e5;margin:2px;}
+#prefix-pl .bd li.selected {border:3px solid #f00;margin:2px;}
+#prefix-pl .bd li img {display:block;width:75px;height:75px;}
+#prefix-pl .loading ul {background:#fff url(http://www.wingshootingusa.org/2012/Images/loading_transparent.gif) no-repeat center center;min-height:300px;}
+/*phtoviewer */
+#prefix-pv .bd {background:#070B0C url(http://www.wingshootingusa.org/2012/Images/loading_transparent.gif) no-repeat center center;min-height:200px;text-align:center;border-radius:5px;padding:20px;}
+/* photosearch */
+#prefix-ps .bd {background-color:#dfdfdf;padding:5px;border-radius:0 0 5px 5px;}
+#prefix-ps .bd form {background-color:#fff;border-radius:5px;padding:10px;}
+#prefix-ps .bd form input[type=submit] {margin:10px 10px 10px 70px;font-size:116%;padding:3px;}
+#prefix-ps .bd form input[type=text] {padding:5px;font-size:116%;color:#666;}
+#prefix-ps .bd form label {font-size:116%;font-weight:bold;}
+/* indicate */
+#prefix-pi p {line-height:2;color:#666;margin-bottom:5px;font-size:108%;}
+#prefix-pi h5 {font-size:123%;font-weight:bold;color:#666;margin:10px 0;}
+#prefix-pi li {color:#666;line-height:2;list-style:decimal inside none;}
+/* footer */
+#prefix-ft {border-top:1px solid #d5d5d5;}
+#prefix-ft .bd {padding:10px;}
+#prefix-ft .bd p {text-align:center;color:#999;}

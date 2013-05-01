@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>JS Modular Pattern</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.10.0/build/cssreset/cssreset-min.css&3.10.0/build/cssfonts/cssfonts-min.css&3.10.0/build/cssgrids-responsive/cssgrids-responsive-min.css">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+<body>
+    <div id="hd">
+        <div id="prefix-hd">
+            <h1>Modular Javascript Pattern with RequireJs and JQuery</h1>
+        </div>
+    </div>
+    <div id="bd">
+        <div class="yui3-g">
+            <div class="yui3-u-2-3">
+                <div class="main">
+                    <!-- #photoviewer (start) -->
+                    <div id="prefix-pv" class="js-module mod" model="photoviewer">
+                        <div class="hd main-title">
+                            <h3>Photo Viewer Module</h3>
+                        </div>
+                        <div class="bd">
+                        </div>
+                    </div>
+                    <div id="prefix-pi" class="mod">
+                        <div class="hd main-title">
+                            <h3>About This Module</h3>
+                        </div>
+                        <div class="bd">
+                            <p>因為近來javascript發展迅速，不少新框架，各種物件導向pattern，讓人眼花撩亂，最重要的是沒辦法很快速的讀懂js code在做些什麼，有鑑於此發展出此簡易的模組化pattern，讓code直白好讀，也可以享受到javascript模組化的好處及優點。</p>
+                            <p>這是參考Awoo的<a href="http://josephj.com/project/javascript-platform-yui-demo/" target="_blank">javascript-platform-yui-demo</a>所改寫的pattern，利用requirejs 和 JQuery兩個框架，簡單直白的模組化網頁開發的javascript！</p>
+                            <h5>特點</h5>
+                            <ul>
+                                <li>簡易好懂</li>
+                                <li>模組化，適合團隊開發</li>
+                                <li>Event-Driven</li>
+                            </ul>
+                            <h5>GITHUB</h5>
+                            <p><a href="https://github.com/tombear/module-your-javascript" target="_blank">https://github.com/tombear/module-your-javascript</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="yui3-u-1-3">
+                <div id="prefix-ps" class="js-module mod" model="photosearch">
+                    <div class="hd side-title">
+                        <h3>Photo Search Module</h3>
+                    </div>
+                    <div class="bd">
+                        <form>
+                            <div class="yui3-g">
+                                <label class="yui3-u">Search：</label>
+                                <input type="text" name="keyword" value="colorful" class="yui3-u">
+                            </div>
+                            <input type="submit" value="Find Photos">
+                        </form>
+                    </div>
+                </div>
+                <div id="prefix-pl" class="js-module mod" model="photolist">
+                    <div class="hd side-title">
+                        <h3>Photo List Module</h3>
+                    </div>
+                    <div class="bd loading">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft">
+        <div id="prefix-ft">
+            <div class="bd">
+                <p>© 2013 tombear 版權所有.</p>
+            </div>
+        </div>
+    </div>
+<script data-main="static/main" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.5/require.min.js"></script>
+</body>
+</html>
